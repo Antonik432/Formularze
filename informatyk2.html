@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-secondary">>
+    <div class="container mt-5">
+        <form>
+            <div class="mb-3">
+                <p class="h2 ">Formularz kwalifikacyjny - Informatyk</p>
+                </div>
+                <p class="fw-bold">4.Wykształcenie i doświadczenie</p><br>
+                <div class="mb-3">
+                <label class="form-label" for="education">Jakie masz wykształcenie?</label>
+                <input type="text" class="form-control" id="education" placeholder="Np. wyższe, policealne...">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="itEducation">Czy posiadasz wykształcenie informatyczne?</label>
+                <select class="form-select" id="itEducation">
+                    <option value="">Wybierz...</option>
+                    <option value="tak">Tak</option>
+                    <option value="nie">Nie</option>
+                </select>
+            </div>
+            <div class="mb-3" id="itEducationDetails" style="display: none;">
+                <label class="form-label" for="itDegree">Jeśli tak, jakie jest to wykształcenie informatyczne?</label>
+                <input type="text" class="form-control" id="itDegree" placeholder="Np. informatyka, inżynieria oprogramowania...">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="experienceYears">Ile lat doświadczenia masz w branży IT?</label>
+                <input type="number" class="form-control" id="experienceYears" min="0" placeholder="Liczba lat">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="previousRoles">Na jakich stanowiskach pracowałeś wcześniej?</label>
+                <textarea class="form-control" id="previousRoles" rows="3" placeholder="Wymień swoje poprzednie role"></textarea>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="certificates">Czy posiadasz certyfikaty IT? Jeśli tak, jakie?</label>
+                <textarea class="form-control" id="certificates" rows="2" placeholder="Wypisz certyfikaty"></textarea>
+            </div>
+            <p class="fw-bold">5.Umiejętności techniczne</p><br>
+            <div class="mb-3">
+                <label for="os" class="form-label">Jakie systemy operacyjne obsługujesz (np. Windows, Linux)?</label>
+                <textarea class="form-control" id="os" rows="3" placeholder="Wpisz systemy operacyjne, które obsługujesz"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="network" class="form-label">Czy masz doświadczenie w konfiguracji sieci komputerowych?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="network" id="network-yes" value="Tak">
+                    <label class="form-check-label" for="network-yes">
+                        Tak
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="network" id="network-no" value="Nie">
+                    <label class="form-check-label" for="network-no">
+                        Nie
+                    </label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="technologies" class="form-label">Jakie znasz technologie sieciowe (np. TCP/IP, DNS, DHCP, VPN)?</label>
+                <textarea class="form-control" id="technologies" rows="3" placeholder="Wpisz znane technologie sieciowe"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="routers" class="form-label">Czy masz doświadczenie w konfiguracji routerów i przełączników?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="routers" id="routers-yes" value="Tak">
+                    <label class="form-check-label" for="routers-yes">
+                        Tak
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="routers" id="routers-no" value="Nie">
+                    <label class="form-check-label" for="routers-no">
+                        Nie
+                    </label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="databases" class="form-label">Jakie bazy danych potrafisz obsługiwać?</label>
+                <textarea class="form-control" id="databases" rows="3" placeholder="Wpisz znane bazy danych"></textarea>
+            </div><br><br>
+                 <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="informatyk.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="informatyk2.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="informatyk3.html">3</a></li>
+</ul>
+        </form>
+</body>
+</html>s

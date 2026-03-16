@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-secondary">
+    <div class="container mt-5">
+        <form>
+            <div class="mb-3">
+                <p class="h2 text-dark">Formularz kwalifikacyjny - Programista</p>
+                <p class="text-dark">Wypełnij poniższy formularz, aby się zakwalifikować</p>
+             </div>
+             <p class="fw-bold">1.Dane osobowe</p><br>
+            <div class="mb-3">
+                <label for="name" class="form-label">Imię</label>
+                <input type="text" class="form-control" id="name" placeholder="Wpisz swoje imię">
+            </div>
+            <div class="mb-3">
+                <label for="surname" class="form-label">Nazwisko</label>
+                <input type="text" class="form-control" id="surname" placeholder="Wpisz swoje nazwisko">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Wpisz swój email">
+            </div>
+            <div class="mb-3">
+                <p class="fw-bold">2.Dane kontaktowe</p><br>
+                <label for="phone" class="form-label">Numer telefonu</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Wpisz swój numer telefonu">
+                <label for="e-mail" class="form-label">Adres email</label>
+                <input type="email" class="form-control" id="e-mail" placeholder="Wpisz swój adres email">  
+            </div>
+            <p class="fw-bold">3.Adres zamieszkania</p><br>
+            <div class="mb-3">
+                <label for="street" class="form-label">Ulica</label>
+                <input type="text" class="form-control" id="street" placeholder="Wpisz swoją ulicę">
+                <label for="city" class="form-label">Miasto</label>
+                <input type="text" class="form-control" id="city" placeholder="Wpisz swoje miasto">
+                <label for="postal-code" class="form-label">Kod pocztowy</label>
+                <input type="text" class="form-control" id="postal-code" placeholder="Wpisz swój kod pocztowy">
+            </div>
+            <p class="fw-bold">5.Dostępność do pracy</p><br>
+            <div class="mb-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="stationary" name="work-type" value="Stacjonarna">
+                    <label class="form-check-label" for="stationary">Praca stacjonarna</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="remote" name="work-type" value="Zdalna">
+                    <label class="form-check-label" for="remote">Praca zdalna</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="hybrid" name="work-type" value="Hybrydowa">
+                    <label class="form-check-label" for="hybrid">Praca hybrydowa</label>
+                </div>
+            </div><br><br><br><br>
+             <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="Programista.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="Programista2.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="Programista3.html">3</a></li>
+</ul>
+        </form>
+</body>
+</html>
